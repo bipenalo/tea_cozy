@@ -4,6 +4,14 @@ body {
   background-color: black;
 }
 
+.container1 {
+  display: flex;
+  padding-top: 110px;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
 .title {
   display: flex;
   align-items: center;
@@ -11,7 +19,6 @@ body {
   /*border: 1px solid black;*/
   padding-right: 590px;
   padding-top:  0px;
-  border: 1px solid white;
 }
 
 ul span {
@@ -22,8 +29,12 @@ ul span {
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 0px;
-  border: 1px solid white;
   height: 0px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+a:link {
+    color: seashell;
 }
 
 header {
@@ -31,30 +42,190 @@ header {
   justify-content: space-around;
   border-bottom: 2px solid white;
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   width: 100%;
   height: 109px;
+  background-color: black;
+  margin-top: -8px;
 }
 
-.backgroundimg {
-  /*display: inline-block;*/
-  /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");*/
-  color: white;
-  border: 1px solid white;
-  margin-top: 0px;
-  padding-top: 112px;
-  width: 1400px;
+
+.content{
+  display: block;
+  font-family: Helvetica;
+  text-align: center;
   height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+
+  z-index: 5;
 }
-.backgroundtext {
-  /*display: flex;*/
-  border: 1px solid blue;
-  color: white;
-  width: 100%;
-  height: 100px;
+
+.content h2 {
+  color: seashell;
+  background-color: black;
+  padding-bottom: 10px;
+  margin-top: 350px;
+  font-family: Helvetica;
+  opacity: 1;
+  font-size: 32px;
+
+}
+.content h4 {
+  color: seashell;
+  background-color: black;
+  padding-top: 20px;
+  margin-top: -30px;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+.text1 {
+    display: block;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.images_row1 img {
+
+  height: 200px;
+  width: 300px;
+  padding-right: 20px;
+}
+
+.images_row2 img {
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  padding-right: 20px;
 
 }
 
-#backg {
+ .images_row1 h4 {
+  display: inline-block;
+  color: seashell;
+  text-align: center;
+  padding-right: 80px;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: Helvetica;
+}
+
+.images_row2 h4 {
+  display: inline-block;
+  color: seashell;
+  text-align: center;
+  padding-right: 65px;
+  margin-left: 80px;
+  font-size: 22px;
+  font-family: Helvetica;
+  margin-top: 10px;
+}
+
+.location {
+  text-align: center;
+  height: 570px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+.box {
+  background-color: black;
+  height: 270px;
+  width: 300px;
+  color: seashell;
+  text-align: center;
+  margin-right: 40px;
+  margin-top: 50px;
+
+}
+
+.box.left h3, p{
+  margin-top: 33px;
+}
+.box.center h3, p{
+  margin-top: 33px;
+}
+.box.right h3, p{
+  margin-top: 33px;
+}
+
+.contact {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+}
+
+.copyright p {
+  color: seashell;
+  font-size: 22px;
+  margin-left: 20px;
+  font-family: Helvetica;
+
+}
+
+#container2 {
+
   display: flex;
+  max-width: 1000px;
+  justify-content: space-around;
 }
+#maincontainer2 {
+  display: flex;
+  justify-content: center;
+}
+#container3 {
+  display: flex;
+  max-width: 700px;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+#maincontainer3 {
+  display: flex;
+  justify-content: center;
+}
+
+#container4 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#boxes {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+#container5{
+  display: flex;
+  width: 100%;
+  max-height: 200px;
+  justify-content: center;
+}
+
+/*
+Fall Berry Blitz Tea
+
+Spiced Rum Tea
+
+Seasonal Donuts
+
+Myrtle Ave Tea
+
+Bedford Bizarre Tea
+*/
